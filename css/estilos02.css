@@ -1,0 +1,69 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+
+header{
+   width: 100%;
+   height: 12%;
+   background: blue;  
+   position: fixed;
+}
+
+.ancho-header{
+        width: 90%;
+        height: 70px;
+        /*background: gold;*/
+        margin: auto;
+}
+
+.logo{
+   width: 30%;
+   height: 70px;
+   /*background: lawngreen;*/
+   float: left;
+   padding-top: 5px;
+   box-sizing: border-box;
+}
+
+.logo p a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: rale;
+}
+
+nav{
+   width: 70%;
+   height: 70px;
+   /*background: moccasin;*/
+   float: left;
+   text-align: right;
+   padding-top: 20px;
+   box-sizing: border-box;
+}
+
+nav ul li{
+       display: inline;
+}
+
+nav ul li a{
+       color: #fff;
+       font-size: 15;
+       text-decoration: none;
+       text-transform: uppercase;
+       padding-left: 15px;
+       font-weight: bold;
+       letter-spacing: 1px;
+       font-family: rale;
+}
+
+nav ul li a:hover{
+       color: #444;
+}
+
+@font-face{
+       font-family: rale;
+       src:       url(../fuentes/RalewayRegular.ttf);
+}
